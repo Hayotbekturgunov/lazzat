@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Kantumruy Pro', sans-serif;
+font-family: 'Splash', cursive;
+}
+header{
+    background-image: url(./images/chef-icon.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 100px 0;
+   text-align: center;
+
+}
+.company-name{
+    font-size: 60px;
+
+}
+.slogan{
+    font-weight: 600;
+}
+    .nav-list{ 
+    
+    margin: 50px auto;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    text-align: center;
+
+}
+.nav-item{
+    display: inline-block;
+  
+
+}
+.nav-link{
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: rgba(0,0,0, .8);
+    text-transform: uppercase;
+    
+     
+    
+
+    
+    
+}
+.nav-item:hover{
+
+    background-color: brown;
+}
+.recipes-list{
+   width: 80%;
+   margin: auto;
+
+ 
+}
+.recipe-item{
+    width: 30%;
+    
+    margin: 10px 2.3%;  
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}
+.recipe-item:nth-child(1),
+.recipe-item:nth-child(4){
+    margin-left: 0;
+
+}
+.recipe-item:nth-child(1),
+.recipe-item:nth-child(4){
+    margin-right: 0;
+    
+}
+.recipe-img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
+.recipe-category{
+    text-decoration: none;
+    color: white;
+    background-color: #f0932b;
+    display: inline-block;
+    padding: 5px 10px ;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px    ;
+}
+.recipe-titl-link{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 15px 0;
+
+}
+
+
